@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;   
+    padding: 0;
+}
+
+
+body {
+    height: 100vh;
+        background-image: url(/philatéliste/picture/back1.jpg);
+
+}
+
+header {
+    height: 10%;
+    display: flex;
+    background-color: rgb(17, 169, 230);
+}
+
+nav{
+    width: 100%;
+}
+
+
+
+nav > ul {
+    
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    height: 100%;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(214, 218, 218);
+    border: 1px solid rgb(36, 192, 192);
+    border-radius: 4px;
+    background-color: rgb(19, 189, 219);
+    padding: 4px 7px;
+}
+nav a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 184, 223);
+    text-shadow: rgb(122, 122, 122) 4px 3px 0px;
+    
+}
+
+nav li{
+    display: flex;
+    align-items: center;
+}
+
+main {
+    height: 80%;
+}
+
+footer {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+
+}
+
+#stamped>div {
+    width: 20%;
+    height: 43%;
+
+}
+
+main>#stamped {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.headCorps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color:#89bceb;
+    }
+   input[type=submit]:active, input[type=reset]:active {
+    background-color:#FCDEDE;
+    box-shadow:1px 1px 1px #1ba4ce inset;
+   }
+
+   .fb a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(214, 218, 218);
+    border: 1px solid rgb(36, 192, 192);
+    border-radius: 4px;
+    background-color: rgb(19, 189, 219);
+    padding: 4px 7px;
+   }
+
